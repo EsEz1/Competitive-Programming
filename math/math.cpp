@@ -7,6 +7,8 @@
 
 * You can use the following operation n*(n+1)/2 (n represents the number you need to reach it. From 1 to n).
 */
+
+// For Example:
 int n;
 cin >> n;
 cout << n * (n + 1) / 2;
@@ -19,11 +21,13 @@ cout << n * (n + 1) / 2;
 
 * (1 power 2) + (2 power 2) + (2 power 3) = 13
 
-* you can use the following operation n*(n+1)*(2n+1)/6 (n represents the number you need to reach it. From 1 to n).  
+* you can use the following operation n*(n+1)*(2n+1)/6 (n represents the number you need to reach it. From 1 to n).
 */
+
+// For Example:
 int n;
 cin >> n;
-cout << n * (n + 1) * (2n + 1) / 6;
+cout << n * (n + 1) * (2 * n + 1) / 6;
 
 
 /*
@@ -37,6 +41,8 @@ cout << n * (n + 1) * (2n + 1) / 6;
 * you can use the following operation n*(a+b)/2 (n represents the number of element so in this case, the number of elements is 4
   (a represents the first element of the numbers (1)) and finally (b reprsenets the last element of numbers (7)).
 */
+
+// For Example:
 int a, b, c, d;
 cin >> a >> b >> c >> d;
 cout << 4 * (a + b) / 2;
