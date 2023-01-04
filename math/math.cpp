@@ -8,7 +8,7 @@
 * You can use the following operation n * (n + 1) / 2 (n represents the number you need to reach it. From 1 to n).
 */
 
-// For Example:
+// For example:
 int n;
 cin >> n;
 cout << n * (n + 1) / 2;
@@ -24,7 +24,7 @@ cout << n * (n + 1) / 2;
 * You can use the following operation n * (n + 1) * (2n + 1) / 6 (n represents the number you need to reach it. From 1 to n).
 */
 
-// For Example:
+// For example:
 int n;
 cin >> n;
 cout << n * (n + 1) * (2 * n + 1) / 6;
@@ -42,7 +42,7 @@ cout << n * (n + 1) * (2 * n + 1) / 6;
   (a represents the first element of the numbers (1)) and finally (b reprsenets the last element of numbers (7)).
 */
 
-// For Example:
+// For example:
 int a, b, c, d;
 cin >> a >> b >> c >> d;
 cout << 4 * (a + b) / 2;
@@ -60,7 +60,7 @@ cout << 4 * (a + b) / 2;
   (k represents the ratio between any two consecutive numbers) and finally (a represents the first element of the numbers (3)).
 */
 
-// For Example:
+// For example:
 int a, b, c, d;
 cin >> a >> b >> c >> d;
 int k = d / c; // you can use one of these represent k: (d/c) or (c/b) or (b/a) 
